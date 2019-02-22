@@ -1,0 +1,20 @@
+﻿[
+  {
+    "name": "clocktown",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "images/map_clocktown.png"
+  },
+  {
+    "name": "terminafield",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "ocarina",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_ocarina.png"
+  }
+]

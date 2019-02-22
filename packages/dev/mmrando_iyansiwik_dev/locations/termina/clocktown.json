@@ -1,0 +1,756 @@
+[
+  {
+    "name": "Clock Town",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+      {
+        "name": "Postbox Item",
+        "color": "#18a50e",
+        "sections": [
+          {
+            "name": "Check the Mail",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_postman",
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 519,
+            "y": 854
+          },
+          {
+            "map": "clocktown",
+            "x": 729,
+            "y": 515
+          },
+          {
+            "map": "clocktown",
+            "x": 1017,
+            "y": 750
+          },
+          {
+            "map": "clocktown",
+            "x": 959,
+            "y": 391
+          },
+          {
+            "map": "clocktown",
+            "x": 676,
+            "y": 249
+          }
+        ]
+      },
+      {
+        "name": "South Clock Town",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Clock Tower Heart Piece",
+            "sections": [
+              {
+                "name": "Climb Up",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 608,
+                "y": 566
+              }
+            ]
+          },
+          {
+            "name": "Carnival Tower Chest",
+            "sections": [
+              {
+                "name": "Hookshot to Chest - Final Day",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              }
+            ],
+            "access_rules": [
+              "hookshot"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 605,
+                "y": 815
+              }
+            ]
+          },
+          {
+            "name": "Clock Town Business Scrub",
+            "sections": [
+              {
+                "name": "Sell Moon's Tear",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "tear"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 497,
+                "y": 676
+              }
+            ]
+          },
+          {
+            "name": "South Clock Town Lower Right Nook",
+            "sections": [
+              {
+                "name": "Hookshot to Chest",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              }
+            ],
+            "access_rules": [
+              "hookshot"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 757,
+                "y": 902
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Clock Town",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Lower Left Chest",
+            "sections": [
+              {
+                "name": "Open Chest",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 812,
+                "y": 902
+              }
+            ]
+          },
+          {
+            "name": "Stray Fairy - Nights",
+            "sections": [
+              {
+                "name": "Collect",
+                "hosted_item": "clocktown_fairy"
+              }
+            ],
+            "access_rules": [
+              "mask_deku"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 820,
+                "y": 698
+              }
+            ]
+          },
+          {
+            "name": "Stock Pot Inn",
+            "sections": [
+              {
+                "name": "Inn Staff Room Chest - Final Night",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              },
+              {
+                "name": "Room Reservation Mixup - Day 1, 2 PM - 4 PM",
+                "item_count": 1
+              },
+              {
+                "name": "Inn Guest Room",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ],
+                "access_rules": [
+                  "room_key"
+                ]
+              },
+              {
+                "name": "Midnight Item From Anju - Night 1, 12 AM - 6 AM",
+                "item_count": 1,
+                "access_rules": [
+                  "mask_kafei, [room_key]",
+                  "mask_kafei, mask_deku"
+                ]
+              },
+              {
+                "name": "Grandma Story Time - Days 1 & 2",
+                "item_count": 2,
+                "access_rules": [
+                  "mask_all_night"
+                ]
+              },
+              {
+                "name": "Toilet Hand Gift - Nights 1 & 2, 12 AM - 6 AM",
+                "item_count": 1,
+                "access_rules": [
+                  "[room_key], paper",
+                  "mask_deku, paper"
+                ]
+              },
+              {
+                "name": "Couple's Mask - Final Night, 4:30 AM",
+                "item_count": 1,
+                "access_rules": [
+                  "[hookshot], [mask_garo], mask_kafei, pendant"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 869,
+                "y": 530
+              }
+            ]
+          },
+          {
+            "name": "Milk Bar",
+            "sections": [
+              {
+                "name": "Milk Bar Performance - Nights 1 & 2, 10 PM - 6 AM",
+                "item_count": 1,
+                "access_rules": [
+                  "mask_romani, mask_deku, mask_goron, mask_zora"
+                ]
+              },
+              {
+                "name": "Delivery to Madame Aroma - Final Night",
+                "item_count": 1,
+                "access_rules": [
+                  "letter_mama"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 982,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "Shooting Gallery",
+            "sections": [
+              {
+                "name": "40+",
+                "item_count": 1
+              },
+              {
+                "name": "50",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "bow"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 969,
+                "y": 828
+              }
+            ]
+          },
+          {
+            "name": "Honey and Darling's Shop",
+            "sections": [
+              {
+                "name": "All Three Days",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "bow, bomb"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 1061,
+                "y": 716
+              }
+            ]
+          },
+          {
+            "name": "Bombers' Hideout",
+            "sections": [
+              {
+                "name": "Bombers' Hidden Treasure",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "[mask_deku], [magic], bomb",
+              "[mask_deku], [magic], mask_blast",
+              "[bow], bomb",
+              "[bow], mask_blast",
+              "[mask_zora], bomb",
+              "[mask_zora], mask_blast"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 1142,
+                "y": 287
+              }
+            ]
+          },
+          {
+            "name": "Mayor's Residence",
+            "sections": [
+              {
+                "name": "Expert Person Finder - Days 1 & 2, 10 AM - 8 PM",
+                "item_count": 1
+              },
+              {
+                "name": "The Never-Ending Meeting",
+                "item_count": 1,
+                "access_rules": [
+                  "mask_couple"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 978,
+                "y": 229
+              }
+            ]
+          },
+          {
+            "name": "Treasure Chest Shop",
+            "sections": [
+              {
+                "name": "Roll through the Maze",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "mask_goron"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 852,
+                "y": 733
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "North Clock Town",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Heart Piece in Tree",
+            "sections": [
+              {
+                "name": "Jump Up",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 681,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "Deku Playground",
+            "sections": [
+              {
+                "name": "Play all Three Days",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "mask_deku"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 424,
+                "y": 311
+              }
+            ]
+          },
+          {
+            "name": "Clock Town Great Fairy",
+            "sections": [
+              {
+                "name": "Return Clock Town Stray Fairy",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "mask_deku, clocktown_fairy"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 361,
+                "y": 228
+              }
+            ]
+          },
+          {
+            "name": "Save Bomb Shop Lady",
+            "sections": [
+              {
+                "name": "Stop Sakon - Night 1, 12:20 AM",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 648,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "name": "Jim",
+            "sections": [
+              {
+                "name": "Play Hide and Seek",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "mask_deku, magic",
+              "bow",
+              "mask_zora"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 549,
+                "y": 215
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "West Clock Town",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Swordsman's School",
+            "sections": [
+              {
+                "name": "Expert Course",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 181,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "name": "Post Office",
+            "sections": [
+              {
+                "name": "Postman Counting Game - Day 1, 3 PM - 12 AM & Day 2, 5 PM - 12 AM",
+                "item_count": 1,
+                "access_rules": [
+                  "[mask_bunny]"
+                ]
+              },
+              {
+                "name": "Special Delivery - Final Night",
+                "item_count": 1,
+                "access_rules": [
+                  "letter_mama"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 251,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "name": "Bomb Shop",
+            "sections": [
+              {
+                "name": "10 Bombs (30 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "10 Bombchu (40 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "Bomb Bag (50 Rupees)",
+                "item_count": 1
+              },
+              {
+                "name": "Big Bomb Bag (90 Rupees)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 144,
+                "y": 625
+              }
+            ]
+          },
+          {
+            "name": "Trading Post",
+            "sections": [
+              {
+                "name": "Red Potion (30 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "Green Potion (30 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "Hero's Shield (80 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "Fairy (50 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "Deku Stick (10 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "30 Arrows (30 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "10 Deku Nuts (30 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              },
+              {
+                "name": "50 Arrows (40 Rupees)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 196,
+                "y": 711
+              }
+            ]
+          },
+          {
+            "name": "Curiosity Shop",
+            "sections": [
+              {
+                "name": "500 Rupee Purchase - Final Night",
+                "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_shop_items"
+                ],
+                "access_rules": [
+                  "wallet500"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 280,
+                "y": 764
+              }
+            ]
+          },
+          {
+            "name": "Bank",
+            "sections": [
+              {
+                "name": "200 Rupee Award",
+                "item_count": 1
+              },
+              {
+                "name": "1000 Rupee Award",
+                "item_count": 1,
+                "access_rules": [
+                  "[wallet200]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 266,
+                "y": 649
+              }
+            ]
+          },
+          {
+            "name": "Rosa Sisters",
+            "sections": [
+              {
+                "name": "Dance",
+                "item_count": 1
+              }
+            ],
+            "access_rules": [
+              "mask_kamaro"
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 264,
+                "y": 521
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Laundry Pool",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Guru-Guru",
+            "sections": [
+              {
+                "name": "Console - Nights 1 & 2",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 214,
+                "y": 922
+              }
+            ]
+          },
+          {
+            "name": "Stray Fairy - Days",
+            "sections": [
+              {
+                "name": "Collect",
+                "hosted_item": "clocktown_fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 121,
+                "y": 885
+              }
+            ]
+          },
+          {
+            "name": "Kafei's Hideout",
+            "sections": [
+              {
+                "name": "Gift From Kafei - Night 2, 4:30 PM",
+                "item_count": 1,
+                "access_rules": [
+                  "letter_kafei"
+                ],
+              },
+              {
+                "name": "Gift From Kafei - Final Day, 10 AM - 9 PM",
+                "item_count": 2,
+                "access_rules": [
+                  "letter_kafei"
+                ],
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "clocktown",
+                "x": 119,
+                "y": 733
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

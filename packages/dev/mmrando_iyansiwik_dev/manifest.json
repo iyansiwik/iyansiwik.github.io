@@ -1,0 +1,15 @@
+﻿{
+  "name": "MM Randomizer Item Tracker DEV",
+  "game_name": "Majora's Mask Randomizer",
+  "package_version": "2.0.0",
+  "package_uid": "mmrando_iyansiwik_dev",
+  "author": "Iyan Siwik",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    },
+    "items_only": {
+      "display_name": "Items Only"
+    }
+  }
+}

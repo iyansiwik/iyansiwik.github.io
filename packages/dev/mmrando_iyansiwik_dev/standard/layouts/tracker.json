@@ -1,0 +1,189 @@
+﻿{
+  "tracker_default": {
+    "type": "container",
+    "background": "#212121",
+    "content": [
+      {
+        "type": "dock",
+        "dropshadow": true,
+        "content": [
+          {
+            "type": "dock",
+            "dock": "left",
+            "content": [
+              {
+                "type": "group",
+                "header": "Items",
+                "dock": "top",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "shared_item_grid"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Settings",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_margin": "3,4",
+                    "rows": [
+                      ["shuffle_shop_items", "shuffle_misc_items", "shuffle_dungeon_entrances"]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "dock",
+            "content": [
+              {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Termina",
+                    "icon": "images/map.png",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Clock Town",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "clocktown"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Termina Field",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "terminafield"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Southern Swamp",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Mountain Village",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Great Bay",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ikana Canyon",
+                          "icon": "images/clock.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dungeons",
+                    "icon": "images/dungeon_map.png",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Woodfall Temple",
+                          "icon": "images/remains_odolwa.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "termina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Snowhead Temple",
+                          "icon": "images/remains_goht.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Great Bay Temple",
+                          "icon": "images/remains_gyorg.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Stone Tower Temple",
+                          "icon": "images/remains_twinmold.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ocarina"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Pinned Locations",
+                "margin": "3,0,0,0",
+                "content": {
+                  "type": "recentpins",
+                  "style": "wrap",
+                  "h_alignment": "stretch",
+                  "v_alignment": "stretch",
+                  "orientation": "horizontal",
+                  "compact": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
