@@ -318,6 +318,8 @@
               "[mask_deku], [magic], mask_blast",
               "[bow], bomb",
               "[bow], mask_blast",
+              "[hookshot], bomb",
+              "[hookshot], mask_blast",
               "[mask_zora], bomb",
               "[mask_zora], mask_blast"
             ],
@@ -461,7 +463,8 @@
             "access_rules": [
               "mask_deku, magic",
               "bow",
-              "mask_zora"
+              "mask_zora",
+              "hookshot"
             ],
             "map_locations": [
               {

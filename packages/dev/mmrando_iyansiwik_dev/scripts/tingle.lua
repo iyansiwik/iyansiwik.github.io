@@ -1,78 +1,128 @@
+clocktown_map = 1
+romani_map = 1
+woodfall_map = 1
+snowhead_map = 1
+greatbay_map = 1
+stonetower_map = 1
+
 function tracker_on_accessibility_updated()
-  local swampmap1 = Tracker:FindObjectForCode("@Clock Town Tingle Maps/Map: Swamp")
-  local swampmap2 = Tracker:FindObjectForCode("@Swamp Tingle Maps/Map: Swamp")
+  local clocktown_map1 = Tracker:FindObjectForCode("@Clock Town Tingle Maps/Map of Clock Town")
+  local clocktown_map2 = Tracker:FindObjectForCode("@Ikana Canyon Tingle Maps/Map of Clock Town")
 
-  local mountainmap1 = Tracker:FindObjectForCode("@Swamp Tingle Maps/Map: Mountain")
-  local mountainmap2 = Tracker:FindObjectForCode("@Mountain Tingle Maps/Map: Mountain")
+  local romani_map1 = Tracker:FindObjectForCode("@Milk Road Tingle Maps/Map of Romani Ranch")
+  local romani_map2 = Tracker:FindObjectForCode("@Mountain Village Tingle Maps/Map of Romani Ranch")
 
-  local oceanmap1 = Tracker:FindObjectForCode("@Milk Road Tingle Maps/Map: Ocean")
-  local oceanmap2 = Tracker:FindObjectForCode("@Ocean Tingle Maps/Map: Ocean")
+  local woodfall_map1 = Tracker:FindObjectForCode("@Southern Swamp Tingle Maps/Map of Woodfall")
+  local woodfall_map2 = Tracker:FindObjectForCode("@Clock Town Tingle Maps/Map of Woodfall")
 
-  local canyonmap1 = Tracker:FindObjectForCode("@Ocean Tingle Maps/Map: Canyon")
-  local canyonmap2 = Tracker:FindObjectForCode("@Ikana Canyon Tingle Maps/Map: Canyon")
+  local snowhead_map1 = Tracker:FindObjectForCode("@Mountain Village Tingle Maps/Map of Snowhead")
+  local snowhead_map2 = Tracker:FindObjectForCode("@Southern Swamp Tingle Maps/Map of Snowhead")
 
-  local ranchmap1 = Tracker:FindObjectForCode("@Mountain Tingle Maps/Map: Ranch")
-  local ranchmap2 = Tracker:FindObjectForCode("@Milk Road Tingle Maps/Map: Ranch")
+  local greatbay_map1 = Tracker:FindObjectForCode("@Great Bay Tingle Maps/Map of Great Bay")
+  local greatbay_map2 = Tracker:FindObjectForCode("@Milk Road Tingle Maps/Map of Great Bay")
 
-  local townmap1 = Tracker:FindObjectForCode("@Clock Town Tingle Maps/Map: Clock Town")
-  local townmap2 = Tracker:FindObjectForCode("@Ikana Canyon Tingle Maps/Map: Clock Town")
+  local stonetower_map1 = Tracker:FindObjectForCode("@Ikana Canyon Tingle Maps/Map of Stone Tower")
+  local stonetower_map2 = Tracker:FindObjectForCode("@Great Bay Tingle Maps/Map of Stone Tower")
 
-  local woodfall_oath = Tracker:FindObjectForCode("@Woodfall Temple/Oath to Order")
-  local snowhead_oath = Tracker:FindObjectForCode("@Snowhead Temple/Oath to Order")
-  local greatbay_oath = Tracker:FindObjectForCode("@Great Bay Temple/Oath to Order")
-  local stonetower_oath = Tracker:FindObjectForCode("@Stone Tower Temple/Oath to Order")
-
-  if swampmap1 and swampmap2 then
-    if (swampmap1.AvailableChestCount == 0) or (swampmap2.AvailableChestCount == 0) then
-      swampmap1.AvailableChestCount = 0
-      swampmap2.AvailableChestCount = 0
+  if clocktown_map1 and clocktown_map2 then
+    if clocktown_map == 1 then
+      if (clocktown_map1.AvailableChestCount == 0) or (clocktown_map2.AvailableChestCount == 0) then
+        clocktown_map1.AvailableChestCount = 0
+        clocktown_map2.AvailableChestCount = 0
+        clocktown_map = 0
+      end
+    end
+    if clocktown_map == 0 then
+      if (clocktown_map1.AvailableChestCount > 0) or (clocktown_map2.AvailableChestCount > 0) then
+        clocktown_map1.AvailableChestCount = 1
+        clocktown_map2.AvailableChestCount = 1
+        clocktown_map = 1
+      end
     end
   end
 
-if mountainmap1 and mountainmap2 then
-    if (mountainmap1.AvailableChestCount == 0) or (mountainmap2.AvailableChestCount == 0) then
-      mountainmap1.AvailableChestCount = 0
-      mountainmap2.AvailableChestCount = 0
+  if romani_map1 and romani_map2 then
+    if romani_map == 1 then
+      if (romani_map1.AvailableChestCount == 0) or (romani_map2.AvailableChestCount == 0) then
+        romani_map1.AvailableChestCount = 0
+        romani_map2.AvailableChestCount = 0
+        romani_map = 0
+      end
+    end
+    if romani_map == 0 then
+      if (romani_map1.AvailableChestCount > 0) or (romani_map2.AvailableChestCount > 0) then
+        romani_map1.AvailableChestCount = 1
+        romani_map2.AvailableChestCount = 1
+        romani_map = 1
+      end
     end
   end
 
-  if oceanmap1 and oceanmap2 then
-    if (oceanmap1.AvailableChestCount == 0) or (oceanmap2.AvailableChestCount == 0) then
-      oceanmap1.AvailableChestCount = 0
-      oceanmap2.AvailableChestCount = 0
+  if woodfall_map1 and woodfall_map2 then
+    if woodfall_map == 1 then
+      if (woodfall_map1.AvailableChestCount == 0) or (woodfall_map2.AvailableChestCount == 0) then
+        woodfall_map1.AvailableChestCount = 0
+        woodfall_map2.AvailableChestCount = 0
+        woodfall_map = 0
+      end
+    end
+    if woodfall_map == 0 then
+      if (woodfall_map1.AvailableChestCount > 0) or (woodfall_map2.AvailableChestCount > 0) then
+        woodfall_map1.AvailableChestCount = 1
+        woodfall_map2.AvailableChestCount = 1
+        woodfall_map = 1
+      end
     end
   end
 
-  if canyonmap1 and canyonmap2 then
-    if (canyonmap1.AvailableChestCount == 0) or (canyonmap2.AvailableChestCount == 0) then
-      canyonmap1.AvailableChestCount = 0
-      canyonmap2.AvailableChestCount = 0
+  if snowhead_map1 and snowhead_map2 then
+    if snowhead_map == 1 then
+      if (snowhead_map1.AvailableChestCount == 0) or (snowhead_map2.AvailableChestCount == 0) then
+        snowhead_map1.AvailableChestCount = 0
+        snowhead_map2.AvailableChestCount = 0
+        snowhead_map = 0
+      end
+    end
+    if snowhead_map == 0 then
+      if (snowhead_map1.AvailableChestCount > 0) or (snowhead_map2.AvailableChestCount > 0) then
+        snowhead_map1.AvailableChestCount = 1
+        snowhead_map2.AvailableChestCount = 1
+        snowhead_map = 1
+      end
     end
   end
 
-  if ranchmap1 and ranchmap2 then
-    if (ranchmap1.AvailableChestCount == 0) or (ranchmap2.AvailableChestCount == 0) then
-      ranchmap1.AvailableChestCount = 0
-      ranchmap2.AvailableChestCount = 0
+  if greatbay_map1 and greatbay_map2 then
+    if greatbay_map == 1 then
+      if (greatbay_map1.AvailableChestCount == 0) or (greatbay_map2.AvailableChestCount == 0) then
+        greatbay_map1.AvailableChestCount = 0
+        greatbay_map2.AvailableChestCount = 0
+        greatbay_map = 0
+      end
+    end
+    if greatbay_map == 0 then
+      if (greatbay_map1.AvailableChestCount > 0) or (greatbay_map2.AvailableChestCount > 0) then
+        greatbay_map1.AvailableChestCount = 1
+        greatbay_map2.AvailableChestCount = 1
+        greatbay_map = 1
+      end
     end
   end
 
-  if townmap1 and townmap2 then
-    if (townmap1.AvailableChestCount == 0) or (townmap2.AvailableChestCount == 0) then
-      townmap1.AvailableChestCount = 0
-      townmap2.AvailableChestCount = 0
+  if stonetower_map1 and stonetower_map2 then
+    if stonetower_map == 1 then
+      if (stonetower_map1.AvailableChestCount == 0) or (stonetower_map2.AvailableChestCount == 0) then
+        stonetower_map1.AvailableChestCount = 0
+        stonetower_map2.AvailableChestCount = 0
+        stonetower_map = 0
+      end
     end
-  end
-
-  if woodfall_oath and snowhead_oath and greatbay_oath and stonetower_oath then
-    if (woodfall_oath.AvailableChestCount == 0)
-		or (snowhead_oath.AvailableChestCount == 0)
-    or (greatbay_oath.AvailableChestCount == 0)
-    or (stonetower_oath.AvailableChestCount == 0) then
-      woodfall_oath.AvailableChestCount = 0
-      snowhead_oath.AvailableChestCount = 0
-      greatbay_oath.AvailableChestCount = 0
-      stonetower_oath.AvailableChestCount = 0
+    if stonetower_map == 0 then
+      if (stonetower_map1.AvailableChestCount > 0) or (stonetower_map2.AvailableChestCount > 0) then
+        stonetower_map1.AvailableChestCount = 1
+        stonetower_map2.AvailableChestCount = 1
+        stonetower_map = 1
+      end
     end
   end
 end

@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Tingle Locations",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "color": "#18a50e",
+    "children": [
+      {
+        "name": "Clock Town Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Clock Town",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Woodfall",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 601,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Milk Road Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Romani Ranch",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Snowhead",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 501,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Southern Swamp Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Woodfall",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Snowhead",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 401,
+            "y": 167
+          }
+        ]
+      }
+    ]
+  }
+]
