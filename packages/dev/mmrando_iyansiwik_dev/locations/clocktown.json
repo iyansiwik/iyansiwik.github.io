@@ -71,7 +71,7 @@
             "name": "Carnival Tower Chest",
             "sections": [
               {
-                "name": "Hookshot to Chest - Final Day",
+                "name": "Hookshot or Fly to Chest - Final Day",
                 "item_count": 1,
                 "visibility_rules": [
                   "shuffle_misc_items"
@@ -79,7 +79,8 @@
               }
             ],
             "access_rules": [
-              "hookshot"
+              "hookshot",
+              "mask_deku, tear"
             ],
             "map_locations": [
               {
@@ -112,7 +113,7 @@
             "name": "South Clock Town Lower Right Nook",
             "sections": [
               {
-                "name": "Hookshot to Chest",
+                "name": "Hookshot or Jump to Chest",
                 "item_count": 1,
                 "visibility_rules": [
                   "shuffle_misc_items"
@@ -120,7 +121,8 @@
               }
             ],
             "access_rules": [
-              "hookshot"
+              "hookshot",
+              "mask_deku,tear"
             ],
             "map_locations": [
               {

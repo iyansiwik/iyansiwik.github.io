@@ -1,0 +1,62 @@
+{
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "1,2",
+      "rows": [
+        [
+          "static_sword_razor",
+          "static_sword_gilded",
+          "static_shield_hero",
+          "static_shield_mirror",
+          "static_wallet200",
+          "static_wallet500"
+        ],
+        [
+          "static_tear",
+          "static_deed_land",
+          "static_deed_swamp",
+          "static_deed_mountain",
+          "static_deed_ocean"
+        ],
+        [
+          "static_bow40",
+          "static_bow50",
+          "static_bomb30",
+          "static_bomb40",
+          "static_bottle_potion_red"
+        ],
+        [
+          "static_key_small",
+          "static_key_boss",
+          "static_dungeon_map",
+          "static_dungeon_compass",
+          "static_bottle_potion_green"
+        ],
+        [
+          "static_room_key",
+          "static_letter_mama",
+          "static_letter_kafei",
+          "static_pendant",
+          "static_bottle_potion_blue"
+        ],
+        [
+          "static_bottle_fairy",
+          "static_bottle_princess",
+          "static_bottle_fish",
+          "static_bottle_bug",
+          "static_bottle_poe"
+        ],
+        [
+          "static_bottle_poe_big",
+          "static_bottle_water",
+          "static_bottle_water_hot",
+          "static_bottle_egg",
+          "static_bottle_mushroom"
+        ]
+      ]
+    }
+  }
+}

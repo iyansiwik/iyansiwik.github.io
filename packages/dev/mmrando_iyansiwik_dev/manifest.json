@@ -5,10 +5,10 @@
   "package_uid": "mmrando_iyansiwik_dev",
   "author": "Iyan Siwik",
   "variants": {
-    "standard": {
+    "var_map_tracker": {
       "display_name": "Map Tracker"
     },
-    "items_only": {
+    "var_items_only": {
       "display_name": "Items Only"
     }
   }

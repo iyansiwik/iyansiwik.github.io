@@ -1,0 +1,83 @@
+[
+  // Song of Time
+  {
+    "name": "Song of Time",
+    "type": "toggle",
+    "img": "images/song_time.png",
+    "initial_active_state": true,
+    "codes": "song_time"
+  },
+
+  // Song of Healing
+  {
+    "name": "Song of Healing",
+    "type": "toggle",
+    "img": "images/song_healing.png",
+    "initial_active_state": true,
+    "codes": "song_healing"
+  },
+
+  // Epona's Song
+  {
+    "name": "Epona's Song",
+    "type": "toggle",
+    "img": "images/song_epona.png",
+    "codes": "song_epona"
+  },
+
+  // Song of Storms
+  {
+    "name": "Song of Storms",
+    "type": "toggle",
+    "img": "images/song_storms.png",
+    "codes": "song_storms"
+  },
+
+  // Song of Soaring
+  {
+    "name": "Song of Soaring",
+    "type": "toggle",
+    "img": "images/song_soaring.png",
+    "codes": "song_soaring"
+  },
+
+  // Sonata of Awakening
+  {
+    "name": "Sonata of Awakening",
+    "type": "toggle",
+    "img": "images/song_sonata.png",
+    "codes": "song_sonata"
+  },
+
+  // Goron Lullaby
+  {
+    "name": "Goron Lullaby",
+    "type": "toggle",
+    "img": "images/song_lullaby.png",
+    "codes": "song_lullaby"
+  },
+
+  // New Wave Bossa Nova
+  {
+    "name": "New Wave Bossa Nova",
+    "type": "toggle",
+    "img": "images/song_bossa_nova.png",
+    "codes": "song_bossa_nova"
+  },
+
+  // Elegy of Emptiness
+  {
+    "name": "Elegy of Emptiness",
+    "type": "toggle",
+    "img": "images/song_elegy.png",
+    "codes": "song_elegy"
+  },
+
+  // Oath to Order
+  {
+    "name": "Oath to Order",
+    "type": "toggle",
+    "img": "images/song_oath.png",
+    "codes": "song_oath"
+  }
+]

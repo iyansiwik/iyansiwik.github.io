@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Termina Field Gossip Grotto Locations",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "color": "#18a50e",
+    "children": [
+      {
+        "name": "Gossip Stone HP Grottos",
+        "color": "#18a50e",
+        "sections": [
+          {
+            "name": "Play Sonata/Lullaby/Bossa Nova/Elegy",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "bomb,song_sonata",
+          "bomb,song_lullaby",
+          "bomb,song_bossa_nova",
+          "bomb,song_elegy",
+          "mask_blast,song_sonata",
+          "mask_blast,song_lullaby",
+          "mask_blast,song_bossa_nova",
+          "mask_blast,song_elegy"
+        ],
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 964,
+            "y": 1045
+          },
+          {
+            "map": "terminafield",
+            "x": 1530,
+            "y": 762
+          },
+          {
+            "map": "terminafield",
+            "x": 2345,
+            "y": 1527
+          },
+          {
+            "map": "terminafield",
+            "x": 1192,
+            "y": 2244
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -64,7 +64,7 @@
                         },
                         {
                           "title": "Termina Field",
-                          "icon": "images/clock.png",
+                          "icon": "images/sword_kokiri.png",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -74,7 +74,7 @@
                         },
                         {
                           "title": "Southern Swamp",
-                          "icon": "images/clock.png",
+                          "icon": "images/mask_deku.png",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -84,7 +84,7 @@
                         },
                         {
                           "title": "Mountain Village",
-                          "icon": "images/clock.png",
+                          "icon": "images/mask_goron.png",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -94,7 +94,7 @@
                         },
                         {
                           "title": "Great Bay",
-                          "icon": "images/clock.png",
+                          "icon": "images/mask_zora.png",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -104,7 +104,7 @@
                         },
                         {
                           "title": "Ikana Canyon",
-                          "icon": "images/clock.png",
+                          "icon": "images/shield_mirror.png",
                           "content": {
                             "type": "map",
                             "maps": [

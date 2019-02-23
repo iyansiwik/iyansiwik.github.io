@@ -39,7 +39,7 @@
             "item_count": 1
           },
           {
-            "name": "Map of Snowhead",
+            "name": "Map of Great Bay",
             "item_count": 1
           }
         ],
@@ -51,9 +51,7 @@
         ],
         "map_locations": [
           {
-            "map": "clocktown",
-            "x": 501,
-            "y": 167
+            
           }
         ]
       },
@@ -77,9 +75,79 @@
         ],
         "map_locations": [
           {
-            "map": "clocktown",
-            "x": 401,
-            "y": 167
+
+          }
+        ]
+      },
+      {
+        "name": "Mountain Village Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Snowhead",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Romani Ranch",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Great Bay Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Great Bay",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Stone Tower",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Ikana Canyon Tingle Maps",
+        "sections": [
+          {
+            "name": "Map of Stone Tower",
+            "item_count": 1
+          },
+          {
+            "name": "Map of Clock Town",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku, magic",
+          "bow",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+
           }
         ]
       }

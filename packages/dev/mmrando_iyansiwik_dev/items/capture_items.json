@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Static Razor Sword",
+    "type": "toggle",
+    "img": "images/sword_razor.png",
+    "codes": "static_sword_razor"
+  },
+  {
+    "name": "Static Gilded Sword",
+    "type": "toggle",
+    "img": "images/sword_gilded.png",
+    "codes": "static_sword_gilded"
+  },
+  {
+    "name": "Static Hero's Shield",
+    "type": "toggle",
+    "img": "images/shield_hero.png",
+    "codes": "static_shield_hero"
+  },
+  {
+    "name": "Static Mirror Shield",
+    "type": "toggle",
+    "img": "images/shield_mirror.png",
+    "codes": "static_shield_mirror"
+  },
+  {
+    "name": "Static Adult's Wallet",
+    "type": "toggle",
+    "img": "images/wallet200.png",
+    "codes": "static_wallet200"
+  },
+  {
+    "name": "Static Giant's Wallet",
+    "type": "toggle",
+    "img": "images/wallet500.png",
+    "codes": "static_wallet500"
+  },
+  {
+    "name": "Static Large Quiver",
+    "type": "toggle",
+    "img": "images/bow.png",
+    "img_mods": "overlay|images/overlay_40.png",
+    "codes": "static_bow40"
+  },
+  {
+    "name": "Static Largest Quiver",
+    "type": "toggle",
+    "img": "images/bow.png",
+    "img_mods": "overlay|images/overlay_50_green.png",
+    "codes": "static_bow50"
+  },
+  {
+    "name": "Static Small Key",
+    "type": "toggle",
+    "img": "images/dungeon_key_small.png",
+    "codes": "static_key_small"
+  },
+  {
+    "name": "Static Boss Key",
+    "type": "toggle",
+    "img": "images/dungeon_key_boss.png",
+    "codes": "static_key_boss"
+  },
+  {
+    "name": "Static Dungeon Map",
+    "type": "toggle",
+    "img": "images/dungeon_map.png",
+    "codes": "static_dungeon_map"
+  },
+  {
+    "name": "Static Dungeon Compass",
+    "type": "toggle",
+    "img": "images/dungeon_compass.png",
+    "codes": "static_dungeon_compass"
+  },
+  {
+    "name": "Static Moon's Tear",
+    "type": "toggle",
+    "img": "images/tear.png",
+    "codes": "static_tear"
+  },
+  {
+    "name": "Static Land Title Deed",
+    "type": "toggle",
+    "img": "images/deed_land.png",
+    "codes": "static_deed_land"
+  },
+  {
+    "name": "Static Swamp Title Deed",
+    "type": "toggle",
+    "img": "images/deed_swamp.png",
+    "codes": "static_deed_swamp"
+  },
+  {
+    "name": "Static Mountain Title Deed",
+    "type": "toggle",
+    "img": "images/deed_mountain.png",
+    "codes": "static_deed_mountain"
+  },
+  {
+    "name": "Static Ocean Title Deed",
+    "type": "toggle",
+    "img": "images/deed_ocean.png",
+    "codes": "static_deed_ocean"
+  },
+  {
+    "name": "Static Big Bomb Bag",
+    "type": "toggle",
+    "img": "images/bomb.png",
+    "img_mods": "overlay|images/overlay_30.png",
+    "codes": "static_bomb30"
+  },
+  {
+    "name": "Static Biggest Bomb Bag",
+    "type": "toggle",
+    "img": "images/bomb.png",
+    "img_mods": "overlay|images/overlay_40_green.png",
+    "codes": "static_bomb40"
+  },
+  {
+    "name": "Static Room Key",
+    "type": "toggle",
+    "img": "images/room_key.png",
+    "codes": "static_room_key"
+  },
+  {
+    "name": "Static Special Delivery to Mama",
+    "type": "toggle",
+    "img": "images/letter_mama.png",
+    "codes": "static_letter_mama"
+  },
+  {
+    "name": "Static Letter to Kafei",
+    "type": "toggle",
+    "img": "images/letter_kafei.png",
+    "codes": "static_letter_kafei"
+  },
+  {
+    "name": "Static Pendant of Memories",
+    "type": "toggle",
+    "img": "images/pendant.png",
+    "codes": "static_pendant"
+  },
+  {
+    "name": "Static Fairy Bottle",
+    "type": "toggle",
+    "img": "images/bottle_fairy.png",
+    "codes": "static_bottle_fairy"
+  },
+  {
+    "name": "Static Deku Princess Bottle",
+    "type": "toggle",
+    "img": "images/bottle_princess.png",
+    "codes": "static_bottle_princess"
+  },
+  {
+    "name": "Static Fish Bottle",
+    "type": "toggle",
+    "img": "images/bottle_fish.png",
+    "codes": "static_bottle_fish"
+  },
+  {
+    "name": "Static Bug Bottle",
+    "type": "toggle",
+    "img": "images/bottle_bug.png",
+    "codes": "static_bottle_bug"
+  },
+  {
+    "name": "Static Poe Bottle",
+    "type": "toggle",
+    "img": "images/bottle_poe.png",
+    "codes": "static_bottle_poe"
+  },
+  {
+    "name": "Static Big Poe Bottle",
+    "type": "toggle",
+    "img": "images/bottle_poe_big.png",
+    "codes": "static_bottle_poe_big"
+  },
+  {
+    "name": "Static Spring Water Bottle",
+    "type": "toggle",
+    "img": "images/bottle_water.png",
+    "codes": "static_bottle_water"
+  },
+  {
+    "name": "Static Hot Spring Water Bottle",
+    "type": "toggle",
+    "img": "images/bottle_water_hot.png",
+    "codes": "static_bottle_water_hot"
+  },
+  {
+    "name": "Static Zora Egg Bottle",
+    "type": "toggle",
+    "img": "images/bottle_egg.png",
+    "codes": "static_bottle_egg"
+  },
+  {
+    "name": "Static Mushroom Bottle",
+    "type": "toggle",
+    "img": "images/bottle_mushroom.png",
+    "codes": "static_bottle_mushroom"
+  },
+  {
+    "name": "Static Red Potion",
+    "type": "toggle",
+    "img": "images/bottle_potion_red.png",
+    "codes": "static_bottle_potion_red"
+  },
+  {
+    "name": "Static Mushroom Bottle",
+    "type": "toggle",
+    "img": "images/bottle_potion_green.png",
+    "codes": "static_bottle_potion_green"
+  },
+  {
+    "name": "Static Mushroom Bottle",
+    "type": "toggle",
+    "img": "images/bottle_potion_blue.png",
+    "codes": "static_bottle_potion_blue"
+  }
+]

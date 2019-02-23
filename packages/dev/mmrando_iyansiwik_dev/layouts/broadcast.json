@@ -1,8 +1,7 @@
-﻿{
-  "tracker_default": {
+{
+  "tracker_broadcast": {
     "type": "container",
     "width": 480,
-    //"height": 350,
     "background": "#212121",
     "content": [
       {

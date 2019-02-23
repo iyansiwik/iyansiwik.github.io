@@ -1,0 +1,67 @@
+[
+  // Moon Tear Trade Sequence
+  {
+    "name": "Moon Tear Trade",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/tear.png",
+        "codes": "tear"
+      },
+      {
+        "img": "images/deed_land.png",
+        "codes": "deed_land, paper",
+        "inherit_codes": false
+      },
+	  {
+        "img": "images/deed_swamp.png",
+        "codes": "deed_swamp, paper",
+        "inherit_codes": false
+      },
+	  {
+        "img": "images/deed_mountain.png",
+        "codes": "deed_mountain, paper",
+        "inherit_codes": false
+      },
+	  {
+        "img": "images/deed_ocean.png",
+        "codes": "deed_ocean, paper",
+        "inherit_codes": false
+      },
+    ]
+  },
+
+  // Anju Trade Sequence
+  {
+    "name": "Anju Trade",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/room_key.png",
+        "codes": "room_key"
+      },
+      {
+        "img": "images/letter_mama.png",
+        "codes": "letter_mama, paper",
+        "inherit_codes": false
+      }
+    ]
+  },
+
+  // Kafei Trade Sequence
+  {
+    "name": "Kafei Trade",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/letter_kafei.png",
+        "codes": "letter_kafei, paper"
+      },
+      {
+        "img": "images/pendant.png",
+        "codes": "pendant",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

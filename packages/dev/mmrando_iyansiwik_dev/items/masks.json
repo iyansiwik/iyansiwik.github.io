@@ -1,0 +1,193 @@
+[
+  // Deku Mask
+  {
+    "name": "Deku Mask",
+    "type": "toggle",
+    "img": "images/mask_deku.png",
+    "codes": "mask_deku"
+  },
+
+  // Goron Mask
+  {
+    "name": "Goron Mask",
+    "type": "toggle",
+    "img": "images/mask_goron.png",
+    "codes": "mask_goron"
+  },
+
+  // Zora Mask
+  {
+    "name": "Zora Mask",
+    "type": "toggle",
+    "img": "images/mask_zora.png",
+    "codes": "mask_zora"
+  },
+
+  // Fierce Deity Mask
+  {
+    "name": "Fierce Deity Mask",
+    "type": "toggle",
+    "img": "images/mask_deity.png",
+    "codes": "mask_deity"
+  },
+
+  // Giant Mask
+  {
+    "name": "Giant Mask",
+    "type": "toggle",
+    "img": "images/mask_giant.png",
+    "codes": "mask_giant"
+  },
+
+  // Blast Mask
+  {
+    "name": "Blast Mask",
+    "type": "toggle",
+    "img": "images/mask_blast.png",
+    "codes": "mask_blast"
+  },
+
+  // All Night Mask
+  {
+    "name": "All Night Mask",
+    "type": "toggle",
+    "img": "images/mask_all_night.png",
+    "codes": "mask_all_night"
+  },
+
+  // Bremen Mask
+  {
+    "name": "Bremen Mask",
+    "type": "toggle",
+    "img": "images/mask_bremen.png",
+    "codes": "mask_bremen"
+  },
+
+  // Bunny Hood
+  {
+    "name": "Bunny Hood",
+    "type": "toggle",
+    "img": "images/mask_bunny.png",
+    "codes": "mask_bunny"
+  },
+
+  // Captain Hat
+  {
+    "name": "Captain Hat",
+    "type": "toggle",
+    "img": "images/mask_captain.png",
+    "codes": "mask_captain"
+  },
+
+  // Couple Mask
+  {
+    "name": "Couple Mask",
+    "type": "toggle",
+    "img": "images/mask_couple.png",
+    "codes": "mask_couple"
+  },
+
+  // Don Gero Mask
+  {
+    "name": "Don Gero Mask",
+    "type": "toggle",
+    "img": "images/mask_don_gero.png",
+    "codes": "mask_don_gero"
+  },
+
+  // Garo Mask
+  {
+    "name": "Garo Mask",
+    "type": "toggle",
+    "img": "images/mask_garo.png",
+    "codes": "mask_garo"
+  },
+
+  // Gibdo Mask
+  {
+    "name": "Gibdo Mask",
+    "type": "toggle",
+    "img": "images/mask_gibdo.png",
+    "codes": "mask_gibdo"
+  },
+
+  // Great Fairy Mask
+  {
+    "name": "Great Fairy Mask",
+    "type": "toggle",
+    "img": "images/mask_fairy.png",
+    "codes": "mask_fairy"
+  },
+
+  // Keaton Mask
+  {
+    "name": "Keaton Mask",
+    "type": "toggle",
+    "img": "images/mask_keaton.png",
+    "codes": "mask_keaton"
+  },
+
+  // Kafei Mask
+  {
+    "name": "Kafei Mask",
+    "type": "toggle",
+    "img": "images/mask_kafei.png",
+    "codes": "mask_kafei"
+  },
+
+  // Kamaro Mask
+  {
+    "name": "Kamaro Mask",
+    "type": "toggle",
+    "img": "images/mask_kamaro.png",
+    "codes": "mask_kamaro"
+  },
+
+  // Mask of Truth
+  {
+    "name": "Mask of Truth",
+    "type": "toggle",
+    "img": "images/mask_truth.png",
+    "codes": "mask_truth"
+  },
+
+  // Postman Hat
+  {
+    "name": "Postman Hat",
+    "type": "toggle",
+    "img": "images/mask_postman.png",
+    "codes": "mask_postman"
+  },
+
+  // Romani Mask
+  {
+    "name": "Romani Mask",
+    "type": "toggle",
+    "img": "images/mask_romani.png",
+    "codes": "mask_romani"
+  },
+
+  // Mask of Scents
+  {
+    "name": "Mask of Scents",
+    "type": "toggle",
+    "img": "images/mask_scents.png",
+    "codes": "mask_scents"
+  },
+
+  // Stone Mask
+  {
+    "name": "Stone Mask",
+    "type": "toggle",
+    "img": "images/mask_stone.png",
+    "codes": "mask_stone"
+  },
+
+  // Troupe Leader Mask
+  {
+    "name": "Troupe Leader Mask",
+    "type": "toggle",
+    "img": "images/mask_circus.png",
+    "codes": "mask_circus"
+  }
+]

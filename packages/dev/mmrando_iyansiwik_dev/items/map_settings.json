@@ -1,0 +1,35 @@
+[
+  // Settings
+  {
+    "name": "Shuffle Shop Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_active_state": 1,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/shuffle_shop_items_no.png"
+      },
+      {
+        "img": "images/shuffle_shop_items_yes.png",
+        "codes": "shuffle_shop_items"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Miscellaneous Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_active_state": 1,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/shuffle_misc_items_no.png"
+      },
+      {
+        "img": "images/shuffle_misc_items_yes.png",
+        "codes": "shuffle_misc_items"
+      }
+    ]
+  }
+]

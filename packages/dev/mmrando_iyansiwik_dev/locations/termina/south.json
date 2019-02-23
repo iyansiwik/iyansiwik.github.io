@@ -1,0 +1,134 @@
+[
+
+  {
+    "name": "Southern Termina",
+    "color": "#18a50e",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+      {
+        "name": "Peahat Grotto",
+        "sections": [
+          {
+            "name": "Kill Peahat - Day Only",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 1057,
+            "y": 2011
+          }
+        ]
+      },
+      {
+        "name": "Hidden Grotto in the Grass",
+        "sections": [
+          {
+            "name": "Open Chest",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ]
+          }
+        ]
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 1691,
+            "y": 2056
+          }
+        ]
+      },
+      {
+        "name": "Hidden Chest in the Grass",
+        "sections": [
+          {
+            "name": "Open Chest",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ]
+          }
+        ]
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 1908,
+            "y": 2138
+          }
+        ]
+      },
+      {
+        "name": "Chest on Stump",
+        "sections": [
+          {
+            "name": "Grow a Magic Bean",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ]
+          }
+        ],
+        "access_rules": [
+          "magic_bean, bottle",
+          "hookshot"
+        ],
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 1553,
+            "y": 2067
+          }
+        ]
+      },
+      {
+        "name": "Business Scrub HP",
+        "sections": [
+          {
+            "name": "Pay 100 Rupees",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku,wallet200,[song_soaring]",
+          "mask_deku,magic,wallet200",
+          "[bow],wallet200",
+          "hookshot,wallet200",
+          "mask_zora,wallet200",
+        ],
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 2109,
+            "y": 1630
+          }
+        ]
+      },
+      {
+        "name": "Moon's Tear",
+        "sections": [
+          {
+            "name": "Look at the Moon",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_deku,[song_soaring]",
+          "mask_deku,magic",
+          "[bow]",
+          "hookshot",
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+            "map": "terminafield",
+            "x": 2196,
+            "y": 1638
+          }
+        ]
+      }
+    ]
+  }
+]

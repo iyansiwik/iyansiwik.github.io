@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Keaton Quiz Locations",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "color": "#18a50e",
+    "children": [
+      {
+        "name": "Keaton Quiz",
+        "color": "#18a50e",
+        "sections": [
+          {
+            "name": "Cut Some Grass",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "mask_keaton"
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 698,
+            "y": 107
+          }
+        ]
+      }
+    ]
+  }
+]
