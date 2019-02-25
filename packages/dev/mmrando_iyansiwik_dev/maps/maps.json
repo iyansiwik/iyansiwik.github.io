@@ -6,15 +6,63 @@
     "img": "images/map_clocktown.png"
   },
   {
-    "name": "terminafield",
+    "name": "termina",
     "location_size": 50,
     "location_border_thickness": 5,
     "img": "images/map_terminafield.png"
   },
   {
-    "name": "ocarina",
+    "name": "ranch",
     "location_size": 50,
     "location_border_thickness": 5,
-    "img": "images/map_ocarina.png"
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "swamp",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "village",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "bay",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "canyon",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "woodfall",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "snowhead",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "greatbay",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
+  },
+  {
+    "name": "stonetower",
+    "location_size": 50,
+    "location_border_thickness": 5,
+    "img": "images/map_terminafield.png"
   }
 ]

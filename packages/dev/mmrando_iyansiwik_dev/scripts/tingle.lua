@@ -5,7 +5,7 @@ snowhead_map = 1
 greatbay_map = 1
 stonetower_map = 1
 
-function tracker_on_accessibility_updated()
+function update_tingle_maps()
   local clocktown_map1 = Tracker:FindObjectForCode("@Clock Town Tingle Maps/Map of Clock Town")
   local clocktown_map2 = Tracker:FindObjectForCode("@Ikana Canyon Tingle Maps/Map of Clock Town")
 

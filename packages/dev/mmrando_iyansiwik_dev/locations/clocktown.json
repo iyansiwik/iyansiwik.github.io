@@ -5,6 +5,54 @@
     "chest_opened_img": "images/chest_brown_open.png",
     "children": [
       {
+        "name": "Woodfall Stray Fairy 1",
+        "sections": [
+          {
+            "name": "Wear the Mask",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 10,
+            "y": 10
+          }
+        ]
+      },
+      {
+        "name": "Woodfall Stray Fairy 2",
+        "sections": [
+          {
+            "name": "Open the Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 10,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Woodfall Stray Fairy 3",
+        "sections": [
+          {
+            "name": "Pop the Bubble",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clocktown",
+            "x": 10,
+            "y": 70
+          }
+        ]
+      },
+      {
         "name": "Postbox Item",
         "color": "#18a50e",
         "sections": [
@@ -184,6 +232,9 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "shuffle_misc_items"
+                ],
+                "access_rules": [
+                  "shuffle_misc_items"
                 ]
               },
               {
@@ -197,7 +248,7 @@
                   "shuffle_misc_items"
                 ],
                 "access_rules": [
-                  "room_key"
+                  "shuffle_misc_items,room_key"
                 ]
               },
               {
@@ -532,12 +583,18 @@
                 "item_count": 1,
                 "visibility_rules": [
                   "shuffle_shop_items"
+                ],
+                "access_rules": [
+                  "shuffle_shop_items"
                 ]
               },
               {
                 "name": "10 Bombchu (40 Rupees)",
                 "item_count": 1,
                 "visibility_rules": [
+                  "shuffle_shop_items"
+                ],
+                "access_rules": [
                   "shuffle_shop_items"
                 ]
               },
@@ -658,8 +715,11 @@
               {
                 "name": "1000 Rupee Award",
                 "item_count": 1,
+                "visibility_rules": [
+                  "shuffle_misc_items"
+                ],
                 "access_rules": [
-                  "[wallet200]"
+                  "shuffle_misc_items,[wallet200]"
                 ]
               }
             ],

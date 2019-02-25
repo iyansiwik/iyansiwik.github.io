@@ -1,6 +1,7 @@
 ﻿{
   "name": "MM Randomizer Item Tracker DEV",
   "game_name": "Majora's Mask Randomizer",
+  "platform": "n64",
   "package_version": "2.0.0",
   "package_uid": "mmrando_iyansiwik_dev",
   "author": "Iyan Siwik",

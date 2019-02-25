@@ -1,5 +1,4 @@
 [
-
   {
     "name": "Southern Termina",
     "color": "#18a50e",
@@ -16,7 +15,7 @@
         ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 1057,
             "y": 2011
           }
@@ -32,10 +31,10 @@
               "shuffle_misc_items"
             ]
           }
-        ]
+        ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 1691,
             "y": 2056
           }
@@ -51,10 +50,10 @@
               "shuffle_misc_items"
             ]
           }
-        ]
+        ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 1908,
             "y": 2138
           }
@@ -77,7 +76,7 @@
         ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 1553,
             "y": 2067
           }
@@ -100,7 +99,7 @@
         ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 2109,
             "y": 1630
           }
@@ -123,7 +122,7 @@
         ],
         "map_locations": [
           {
-            "map": "terminafield",
+            "map": "termina",
             "x": 2196,
             "y": 1638
           }

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Eastern Termina",
+    "color": "#18a50e",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+      {
+        "name": "East Piller Grotto",
+        "sections": [
+          {
+            "name": "Climb the Pillar",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ],
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 1946,
+            "y": 1324
+          }
+        ]
+      }
+    ]
+  }
+]

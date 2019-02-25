@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Northern Termina",
+    "color": "#18a50e",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+      {
+        "name": "Dodongo Grotto",
+        "sections": [
+          {
+            "name": "Kill the Dodongos",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 1033,
+            "y": 732
+          }
+        ]
+      },
+      {
+        "name": "Kamaro's Mask",
+        "sections": [
+          {
+            "name": "Play Song of Healing - 12 AM - 6 AM",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ocarina,song_healing"
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 1011,
+            "y": 793
+          }
+        ]
+      }
+    ]
+  }
+]

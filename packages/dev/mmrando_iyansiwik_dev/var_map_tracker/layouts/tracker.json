@@ -23,16 +23,36 @@
                 ]
               },
               {
-                "type": "group",
-                "header": "Settings",
+                "type": "array",
+                "orientation": "vertical",
                 "content": [
                   {
-                    "type": "itemgrid",
-                    "h_alignment": "left",
-                    "item_margin": "3,4",
-                    "rows": [
-                      ["shuffle_shop_items", "shuffle_misc_items", "shuffle_dungeon_entrances"]
+                    "type": "group",
+                    "header": "Settings",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "item_margin": "3,4",
+                        "rows": [
+                          ["shuffle_shop_items", "shuffle_misc_items", "shuffle_dungeon_entrances"]
+                        ]
+                      }
                     ]
+                  },
+                  {
+                    "type": "group",
+                    "header": "Pinned Locations",
+                    "margin": "3,0,0,0",
+                    "content": {
+                      "type": "recentpins",
+                      "style": "wrap",
+                      "h_alignment": "stretch",
+                      "max_width": 450,
+                      "v_alignment": "stretch",
+                      "orientation": "horizontal",
+                      "compact": true
+                    }
                   }
                 ]
               }
@@ -46,6 +66,16 @@
                 "dock": "top",
                 "tabs": [
                   {
+                    "title": "Clock Town",
+                    "icon": "images/clock.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "clocktown"
+                      ]
+                    }
+                  },
+                  {
                     "title": "Termina",
                     "icon": "images/map.png",
                     "content": {
@@ -53,22 +83,22 @@
                       "dock": "top",
                       "tabs": [
                         {
-                          "title": "Clock Town",
-                          "icon": "images/clock.png",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "clocktown"
-                            ]
-                          }
-                        },
-                        {
                           "title": "Termina Field",
                           "icon": "images/sword_kokiri.png",
                           "content": {
                             "type": "map",
                             "maps": [
-                              "terminafield"
+                              "termina"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Romani Ranch",
+                          "icon": "images/bottle_milk.png",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ranch"
                             ]
                           }
                         },
@@ -78,7 +108,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "swamp"
                             ]
                           }
                         },
@@ -88,7 +118,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "village"
                             ]
                           }
                         },
@@ -98,7 +128,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "bay"
                             ]
                           }
                         },
@@ -108,7 +138,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "canyon"
                             ]
                           }
                         }
@@ -128,7 +158,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "termina"
+                              "woodfall"
                             ]
                           }
                         },
@@ -138,7 +168,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "snowhead"
                             ]
                           }
                         },
@@ -148,7 +178,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "greatbay"
                             ]
                           }
                         },
@@ -158,7 +188,7 @@
                           "content": {
                             "type": "map",
                             "maps": [
-                              "ocarina"
+                              "stonetower"
                             ]
                           }
                         }
@@ -166,19 +196,6 @@
                     }
                   }
                 ]
-              },
-              {
-                "type": "group",
-                "header": "Pinned Locations",
-                "margin": "3,0,0,0",
-                "content": {
-                  "type": "recentpins",
-                  "style": "wrap",
-                  "h_alignment": "stretch",
-                  "v_alignment": "stretch",
-                  "orientation": "horizontal",
-                  "compact": true
-                }
               }
             ]
           }

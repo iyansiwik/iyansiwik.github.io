@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Western Termina",
+    "color": "#18a50e",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+      {
+        "name": "Underwater Chest",
+        "sections": [
+          {
+            "name": "Dive Down",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ],
+          }
+        ],
+        "access_rules": [
+          "mask_zora"
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 642,
+            "y": 1736
+          }
+        ]
+      },
+      {
+        "name": "Bio Baba Grotto",
+        "sections": [
+          {
+            "name": "Shoot the Beehives",
+            "item_count": 1,
+            "visibility_rules": [
+              "shuffle_misc_items"
+            ]
+          }
+        ],
+        "access_rules": [
+          "bomb,mask_zora",
+          "bomb,hookshot,[mask_zora]",
+          "bomb,bow,[mask_zora]"
+        ],
+        "map_locations": [
+          {
+            "map": "termina",
+            "x": 510,
+            "y": 1252
+          }
+        ]
+      }
+    ]
+  }
+]
