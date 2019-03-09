@@ -1,0 +1,14 @@
+{
+  "name": "Iyan Siwik's Reference Packages",
+  "packages": [
+    {
+      "name": "Feature Test",
+      "author": "Iyan Siwik",
+      "game_name": "N/A",
+      "version": "1.0.0",
+      "required_app_version": "2.2.0.6",
+      "uid": "testing_features",
+      "link": "https://iyansiwik.github.io/packages/ref/testing_features.zip"
+    }
+  ]
+}
