@@ -27,3 +27,11 @@ function check_auto() {
 	
 	return true;
 }
+
+function get_page() {
+	page = window.localStorage.getItem('hivestuck_page');
+	
+	if(page == null) return 0;
+	
+	return page;
+}
