@@ -8,9 +8,15 @@
 		<link rel="stylesheet" href="../../style.css" />
 		<script src="../../randfaces.js"></script>
 		<script src="../saveloadgame.js"></script>
+		<script>
+			function page_load() {
+				randomizeFaces('../../');
+				if(check_auto()) save_game(2);
+			}
+		</script>
 		<title>HiveStuck</title>
 	</head>
-	<body bgcolor=535353 onload="randomizeFaces('../../')">
+	<body bgcolor=535353 onload="page_load()">
 		<div class="container">
 			<header>
 				<nav>

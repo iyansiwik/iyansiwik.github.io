@@ -25,3 +25,9 @@ function delete_game() {
 	window.localStorage.removeItem('hivestuck_page');
 	window.localStorage.removeItem('hivestuck_auto');
 }
+
+function check_auto() {
+	if(window.localStorage.getItem('hivestuck_auto') == null) return false;
+	
+	return true;
+}
