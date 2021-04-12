@@ -10,10 +10,6 @@ function load_game(current='../') {
 		return false;
 	}
 	
-	if(page == "1") {
-		page = "";
-	}
-	
 	window.location.href = current + page;
 }
 
