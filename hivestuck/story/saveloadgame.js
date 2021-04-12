@@ -1,35 +1,27 @@
-window.onload = floada() {
-	window.alert("sometext");
+function save_game(page) {
+	window.localStorage.setItem('hivestuck_page', page);
+}
+
+function load_game(current='../') {
+	page = window.localStorage.getItem('hivestuck_page');
 	
-	var save = document.getElementById("saveLink");
-	a.onclick = fsave(page) {
-		window.alert("save");
-		window.localStorage.setItem('hivestuck_page', page);
-		
+	if(page == null) {
+		window.alert("You haven't saved your game!");
 		return false;
 	}
 	
-	var load = document.getElementById("loadLink");
-	a.onclick = fload() {
-		window.alert("load");
-		page = window.localStorage.getItem('hivestuck_page');
-		window.location.assign("https://www.google.com");
+	if(page == "1") {
+		page = "";
 	}
 	
-	var auto = document.getElementById("autoLink");
-	a.onclick = fauto() {
-		window.alert("auto");
-		window.localStorage.setItem('hivestuck_auto', 1);
-		
-		return false;
-	}
-	
-	var del = document.getElementById("delLink");
-	a.onclick = fdel() {
-		window.alert("del");
-		window.localStorage.setItem('hivestuck_page', 0);
-		window.localStorage.setItem('hivestuck_auto', 0);
-		
-		return false;
-	}
+	window.location.href = current + page;
+}
+
+function auto_save() {
+	window.localStorage.setItem('hivestuck_auto', 1);
+}
+
+function delete_game() {
+	window.localStorage.removeItem('hivestuck_page');
+	window.localStorage.removeItem('hivestuck_auto');
 }
