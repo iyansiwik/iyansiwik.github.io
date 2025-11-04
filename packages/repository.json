@@ -1,14 +1,31 @@
 {
-  "name": "Iyan Siwik's Packages",
+  "name": "AriahKS's Packages",
   "packages": [
     {
       "name": "Majora's Mask Randomizer Tracker",
-      "author": "Ariah",
+      "author": "AriahKS",
       "game_name": "Majora's Mask Randomizer",
       "version": "1.0.0",
       "required_app_version": "2.2.0.6",
-      "uid": "mmrando_iyansiwik",
-      "link": "https://iyansiwik.github.io/packages/mmrando_iyansiwik.zip"
+      "uid": "mmrando_ariahks",
+      "link": "https://ariahks.github.io/emotracker-packages/mmrando_ariahks.zip"
+    },
+    {
+      "name": "OoTMM Randomizer Item Tracker",
+      "author": "AriahKS",
+      "game_name": "OOTMM Randomizer",
+      "version": "2.0.0",
+      "required_app_version": "2.3.0.0",
+      "uid": "ootmmrando_ariahks",
+      "link": "https://ariahks.github.io/emotracker-packages/ootmmrando_ariahks.zip",
+      "variants": [
+        {
+          "name": "Shared Items"
+        },
+        {
+          "name": "Shared Items w/ Souls"
+        }
+      ]
     }
   ]
 }
